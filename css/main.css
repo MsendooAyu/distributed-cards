@@ -1,56 +1,73 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-size: 1.125rem;
-  background-color: #fff;
-  font-family: Georgia;
+  background-color: #f5f2f0;
+  font-family: "Georgia" "Denk One";
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body{
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 1fr 1fr;
+body {
+  display: contents;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
 }
 
-main{
-
+main {
+  grid-column-gap: 1rem;
 }
 
 h1 {
-
+  font-family: "Denk One";
+  color: #623b0c;
+  margin: 1.5rem;
+  padding: .5em .75em .6em;
 }
 
 ol {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: .5em .75em .6em;
 }
 
 li {
-
+  background-color: #ede3db;
+  margin: 1.5rem;
+  padding: .5em .75em .6em;
+  border-radius: 8px;
+  box-sizing: content-box;
+  list-style-type: none;
+  border-width: 2px;
+  border-width: thick;
+  border-color: #623b0c;
 }
 
 h2 {
-color: #623b0c;
-font-family: Denk One;
-margin: 1.5rem;
-padding: 1rem;
-gap: 1rem;
+  color: #623b0c;
+  font-family: "Denk One";
+  margin: 0;
+  padding: .5em .75em .6em;
 }
 
 img {
-width: 50%;
-border-width: 2px;
+  width: 100%;
 }
 
 p {
-color: #000;
+  color: #000;
 }
 
 a {
-background-color: #623b0c;
-color: #fff;
-margin: 1.5rem;
-padding: .5em .75em .6em;
+  background-color: #623b0c;
+  color: #fff;
+  margin: 0 auto;
+  padding: .5em .75em .6em;
+  border-radius: 8px;
+  box-sizing: content-box;
+  list-style-type: none;
+  border-width: 2px;
+  display: flex;
 }
