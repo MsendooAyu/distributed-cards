@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  background-color: #fff;
+  font-family: Georgia;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+}
+
+main{
+
+}
+
+h1 {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
+
+h2 {
+color: #623b0c;
+font-family: Denk One;
+margin: 1.5rem;
+padding: 1rem;
+gap: 1rem;
+}
+
+img {
+width: 50%;
+border-width: 2px;
+}
+
+p {
+color: #000;
+}
+
+a {
+background-color: #623b0c;
+color: #fff;
+margin: 1.5rem;
+padding: .5em .75em .6em;
+}
