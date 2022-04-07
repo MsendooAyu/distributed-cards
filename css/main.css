@@ -15,12 +15,13 @@ body {
   margin: 0;
   justify-content: center;
   flex-direction: column;
+  padding: 1rem;
 }
 
 h1 {
   font-family: "Denk One";
   color: #623b0c;
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
 ol {
@@ -34,13 +35,13 @@ ol {
 
 li {
   border-color: #623b0c;
-  border-width: thick;
+  border-width: thin;
   border-width: 2px;
   list-style-type: none;
   box-sizing: content-box;
   border-radius: 8px;
   padding: .5em .75em .6em;
-  margin: 0;
+  margin: 0 0 auto;
   background-color: #ede3db;
 }
 
@@ -53,20 +54,26 @@ h2 {
 
 img {
   width: 100%;
+  margin: auto;
+  padding: .5em;
 }
 
 p {
   color: #000;
+  font-family: Georgia;
+  margin: 0 auto;
+  padding: 1em .75em .6em;
 }
 
 a {
   background-color: #623b0c;
   color: #fff;
-  margin: 0 auto;
-  padding: .5em .75em .6em;
+  margin: 1.5rem 0 .5rem;
+  padding: .5em .75em;
   border-radius: 8px;
   box-sizing: content-box;
   list-style-type: none;
   border-width: 2px;
   display: flex;
+  font-family: Georgia;
 }
